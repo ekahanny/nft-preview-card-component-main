@@ -17,10 +17,11 @@ body {
     flex-wrap: wrap;
     font-family: 'Outfit', sans-serif;
     align-items: center;
-    min-height: 33rem;
-    max-width: 17em;
-    padding: 10px 20px 5px 20px;
+    min-height: 35rem;
+    max-width: 18em;
+    padding: 15px 22px 10px 22px;
     border-radius: 10px;
+
 }
 
 .card-img{
@@ -28,16 +29,29 @@ body {
     border-radius: 8px;
 }
 
+
+
 .card-title {
     color: white;
 }
 
 .card-title:hover{
     color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
 
 .card-desc {
     color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+
+.container-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid hsl(215, 32%, 27%);
+    gap: 6.7rem;
+    
 }
 
 .ket{
@@ -47,28 +61,35 @@ body {
     font-weight: 600;
 }
 
+.icon-1{
+    margin-right: 5px;
+    padding-left: 5px;
+    width: 9px;
+}
+
 .time-left{
     color: hsl(215, 51%, 70%);
     margin-bottom: 20px;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 600;
+}
 
+.icon-2{
+    margin-right: 5px;
+    width: 14px;
 }
 
 .creator {
-    color: hsl(215, 51%, 70%);
-    margin-left: 10px;
+    color: white;
+    margin-left: 14px;
     font-size: 15px;
 }
 
-.container-1{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 2px solid hsl(215, 32%, 27%);
-    gap: 6rem;
-    
+.creator:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;    
 }
+
 
 .profile {
     display: flex;
@@ -80,15 +101,4 @@ body {
     width: 28px;
     border: 1px solid white;
     border-radius: 50%; 
-}
-
-.icon-1{
-    margin-right: 5px;
-    padding-left: 5px;
-    width: 9px;
-}
-
-.icon-2{
-    margin-right: 5px;
-    width: 14px;
 }
