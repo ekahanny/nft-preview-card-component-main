@@ -49,4 +49,4 @@ Users should be able to:
 
 ## Author
 
-- Github - [Eka Hanny](https://www.your-site.com)
+- Github - [Eka Hanny](https://github.com/ekahanny)
